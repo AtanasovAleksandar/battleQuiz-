@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Shojumaru&display=swap');
+
+.login {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #8CC63F, #39B54A);
+
+    &-img {
+        position: absolute;
+        top: 27px;
+        right: 45px;
+        width: 61%;
+    }
+
+    &-btn {
+        position: absolute;
+        top: 50%;
+        left: 19%;
+    }
+    &-welcome {
+        padding-top: 30px;
+        font-family: 'Shojumaru', cursive;
+    }
+}
